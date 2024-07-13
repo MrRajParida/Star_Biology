@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "404649894643",
+    "firebase_url": "https://directtofirebase-default-rtdb.firebaseio.com",
+    "project_id": "directtofirebase",
+    "storage_bucket": "directtofirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404649894643:android:2958de0673d1cb99df4d86",
+        "android_client_info": {
+          "package_name": "com.example.edudy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq9cIwCXljWzzw6OyNjtnxIkLXAmAH--Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404649894643:android:02513dbef166329fdf4d86",
+        "android_client_info": {
+          "package_name": "com.kprgroup.directconnecting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq9cIwCXljWzzw6OyNjtnxIkLXAmAH--Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404649894643:android:014bab60ff5a06ffdf4d86",
+        "android_client_info": {
+          "package_name": "com.kprgroup.public_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq9cIwCXljWzzw6OyNjtnxIkLXAmAH--Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

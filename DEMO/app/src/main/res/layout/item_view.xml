@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="#ECACAC"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/imgView"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:layout_weight="1"
+                android:id="@+id/textName"
+                android:text="Raj"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:id="@+id/textEmail"
+                android:text="code.paridaraj0987@gmail.com"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

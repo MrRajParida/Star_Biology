@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_myMusic"
+        android:title="My Music"
+        android:icon="@drawable/baseline_headphones_24"/>
+
+    <item
+        android:id="@+id/nav_watch"
+        android:title="Watch"
+        android:icon="@drawable/baseline_smart_display_24"/>
+
+</menu>

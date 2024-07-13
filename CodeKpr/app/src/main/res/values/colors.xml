@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="colorPrimary">#2C3E50</color> <!-- Midnight Blue -->
+    <color name="colorPrimaryDark">#1A2B3C</color> <!-- Darker Midnight Blue -->
+    <color name="colorAccent">#FF6F61</color> <!-- Coral -->
+    <color name="colorBackground">#F7F7F7</color> <!-- Light Gray -->
+    <color name="colorText">#333333</color> <!-- Charcoal -->
+
+    <!-- Dark Theme Colors -->
+    <color name="colorPrimaryNight">#2C3E50</color> <!-- Midnight Blue -->
+    <color name="colorPrimaryDarkNight">#1A2B3C</color> <!-- Darker Midnight Blue -->
+    <color name="colorAccentNight">#00FFFF</color> <!-- Neon Cyan -->
+    <color name="colorBackgroundNight">#121212</color> <!-- Dark Charcoal -->
+    <color name="colorTextNight">#E0E0E0</color> <!-- Light Gray -->
+</resources>

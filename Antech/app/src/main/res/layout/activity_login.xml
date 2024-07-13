@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/appColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Antech"
+            android:textSize="28sp"
+            android:textColor="@color/appText"
+            android:textStyle="bold"
+            android:letterSpacing="0.5"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="32dp"
+                app:cardBackgroundColor="@color/appCard"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/loginCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:paddingTop="48dp"
+                    android:paddingBottom="64dp"
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Welcome to Antech"
+                        android:textColor="@color/white"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="Coding &amp; Programing"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/mobileNumberEnterInputLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="28dp"
+                        android:layout_marginEnd="16dp"
+                        app:prefixTextColor="@color/white"
+                        app:expandedHintEnabled="true"
+                        app:boxStrokeColor="@color/white"
+                        app:boxStrokeWidth="2dp"
+                        app:boxCornerRadiusBottomEnd="12dp"
+                        app:boxCornerRadiusTopStart="12dp"
+                        app:boxCornerRadiusTopEnd="12dp"
+                        app:boxCornerRadiusBottomStart="12dp"
+                        app:hintTextColor="@color/white"
+                        android:hint="Enter Mobile Number"
+                        android:textColorHint="@color/white"
+                        app:prefixText="+91"
+                        app:boxStrokeErrorColor="#FF0000"
+                        app:prefixTextAppearance="@color/white"
+                        app:cursorColor="@color/white">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:maxLength="10"
+                            android:textSize="14sp"
+                            android:padding="20dp"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/white"
+                            android:id="@+id/mobileEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autofillHints="phone"
+                            android:inputType="phone" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/regBtn"
+                app:backgroundTint="@color/appText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-28dp"
+                android:src="@drawable/submit"
+                android:padding="8dp"
+                app:maxImageSize="28dp"
+                app:tint="@color/white"
+                android:layout_below="@+id/loginCard"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/regLogPPText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="none"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="24dp"
+                android:text="By continuing, I agree to Privacy Policy" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/loginLoading"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CodeKpr" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkNight</item>
+        <item name="colorAccent">@color/colorAccentNight</item>
+        <item name="android:colorBackground">@color/colorBackgroundNight</item>
+        <item name="android:textColor">@color/colorTextNight</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="fontFamily">monospace</item>
+
+    </style>
+</resources>

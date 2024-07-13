@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageButton
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/square"
+        android:id="@+id/btn_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rectangle" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/circle"
+        android:id="@+id/btn_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Circle" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/line"
+        android:id="@+id/btn_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Line" />
+
+    <ImageButton
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/wavy_line"
+        android:id="@+id/btn_freehand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Freehand" />
+
+</LinearLayout>

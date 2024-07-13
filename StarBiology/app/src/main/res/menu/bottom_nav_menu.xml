@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/nav_notes"
+        android:title="Note"
+        android:icon="@drawable/baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/nav_videos"
+        android:title="Video"
+        android:icon="@drawable/baseline_ondemand_video_24"/>
+
+    <item
+        android:id="@+id/nav_quiz"
+        android:title="Quiz"
+        android:icon="@drawable/baseline_quiz_24"/>
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="Account"
+        android:icon="@drawable/baseline_manage_accounts_24"/>
+
+</menu>
